@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+   
 </head>
 <body>
     <header>
@@ -16,7 +19,7 @@
                 <img src="Img/Captura.PNG" alt="Logo de la tienda">
             </div>
             <ul class="menu">
-                <li><a href="Tienda.html">Inicio</a></li>
+                <li><a href="Index.html">Inicio</a></li>
                 <li><a href="Guantes.html">Guantes de entreno</a></li>
                 <li><a href="Protecciones.html">Protecciones</a></li>
                 <li><a href="Equipamiento.html">Equipamiento</a></li>
@@ -64,8 +67,12 @@
                 <a href="#" class="btn">Comprar Ahora</a>
             </div>
         </div>
+        
     </div>
 
+    <div id="aside">
+        <model-viewer src="assets/scene.gltf" alt="Protecciones" auto-rotate camera-controls ar ios-src="assets/scene.gltf"></model-viewer>
+    </div>
     
 </body>
 </html>

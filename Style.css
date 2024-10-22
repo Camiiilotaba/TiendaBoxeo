@@ -163,7 +163,7 @@ body {
 
 /* Categorías de productos */
 .categories {
-    
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: stretch; 

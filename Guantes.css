@@ -154,7 +154,22 @@ h1 {
     background-color: #d81b60;
 }
 
+#aside{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50%-250px);
+    right: 35%;
+}
 
+#aside model-viewer{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
 
 
 
